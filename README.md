@@ -19,8 +19,9 @@ RESTful API for an e-commerce platform built with Laravel.
 - Laravel Sanctum (API authentication)
 - PHP 8.2+
 
-- Frontend Repository
-Shop-Frontend
+# Frontend Repository
+[Shop-Frontend
+](https://github.com/melika-rezaie/shop-frontend)
 
 License
 MIT
