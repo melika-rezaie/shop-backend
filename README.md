@@ -48,3 +48,35 @@ php artisan migrate
 
 # Start development server
 php artisan serve
+API Endpoints
+Public Routes
+Method	Endpoint	Description
+POST	/api/register	Register new user
+POST	/api/login	User login
+GET	/api/products	Get all products
+GET	/api/products/{id}	Get single product
+Protected Routes (require authentication)
+Method	Endpoint	Description
+POST	/api/logout	User logout
+GET	/api/user	Get user info
+POST	/api/cart	Add to cart
+GET	/api/cart	Get cart items
+POST	/api/orders	Place order
+GET	/api/orders	Get user orders
+Admin Routes
+Method	Endpoint	Description
+GET	/api/admin/dashboard	Dashboard stats
+GET	/api/admin/products	Manage products
+POST	/api/admin/products	Create product
+PUT	/api/admin/products/{id}	Update product
+DELETE	/api/admin/products/{id}	Delete product
+GET	/api/admin/orders	Manage orders
+PUT	/api/admin/orders/{id}/status	Update order status
+GET	/api/admin/users	Manage users
+PUT	/api/admin/users/{id}/toggle-admin	Toggle admin role
+DELETE	/api/admin/users/{id}	Delete user
+Frontend Repository
+Shop Frontend
+
+License
+MIT
