@@ -19,6 +19,12 @@ RESTful API for an e-commerce platform built with Laravel.
 - Laravel Sanctum (API authentication)
 - PHP 8.2+
 
+- Frontend Repository
+Shop-Frontend
+
+License
+MIT
+
 ## Installation
 
 ```bash
@@ -75,8 +81,4 @@ PUT	/api/admin/orders/{id}/status	Update order status
 GET	/api/admin/users	Manage users
 PUT	/api/admin/users/{id}/toggle-admin	Toggle admin role
 DELETE	/api/admin/users/{id}	Delete user
-Frontend Repository
-Shop Frontend
 
-License
-MIT
